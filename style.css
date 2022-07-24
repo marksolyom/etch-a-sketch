@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #b8b8b8;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    margin: 0;
+    color: yellow;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+.xl {
+    width: 10%;
+    height: 10%;
+}
+
+.l {
+    width: 5%;
+    height: 5%;
+}
+
+.m {
+    width: 3.3333333333%;
+    height: 3.3333333333%;
+}
+
+.s {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.xs {
+    width: 2%;
+    height: 2%;
+}
+
+.black-square {
+    background-color: black;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+}
+
+.button {
+    font-size: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 0;
+    font-family: inherit;
+    width: 180px;
+    line-height: 2;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.button:active {
+    transform: scale(1.1);   
+}
+
+.rainbow-mode {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
